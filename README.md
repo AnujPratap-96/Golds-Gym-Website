@@ -1,6 +1,6 @@
-Here's the updated **README.md** reflecting that the components use the `.jsx` extension:
 
-```markdown
+
+```
 # Golds Gym Website 🏋️‍♂️💪
 
 Welcome to the **Golds Gym Website**! This gym website allows you to explore a variety of exercises, view detailed exercise information, get YouTube video suggestions, and discover similar exercises targeting the same muscle groups. 🚴‍♀️💥
