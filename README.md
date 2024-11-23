@@ -17,7 +17,7 @@ Welcome to the **Golds Gym Website**! This gym website allows you to explore a v
 - **Vite** ⚡: A fast build tool and development server.
 - **Rapid API** 🌐: Provides access to Exercise and YouTube data.
 - **React Router** 🚗: For routing and navigation between pages.
-- **Axios** 🌍: For making HTTP requests to the API.
+
 
 ## 📦 Setup Instructions
 
