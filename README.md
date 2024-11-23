@@ -1,6 +1,5 @@
-Here's the updated **README.md** reflecting that the components use the `.jsx` extension:
 
-```markdown
+
 # Golds Gym Website 🏋️‍♂️💪
 
 Welcome to the **Golds Gym Website**! This gym website allows you to explore a variety of exercises, view detailed exercise information, get YouTube video suggestions, and discover similar exercises targeting the same muscle groups. 🚴‍♀️💥
@@ -18,7 +17,7 @@ Welcome to the **Golds Gym Website**! This gym website allows you to explore a v
 - **Vite** ⚡: A fast build tool and development server.
 - **Rapid API** 🌐: Provides access to Exercise and YouTube data.
 - **React Router** 🚗: For routing and navigation between pages.
-- **Axios** 🌍: For making HTTP requests to the API.
+
 
 ## 📦 Setup Instructions
 
@@ -98,5 +97,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🎨 [Material UI](https://mui.com/) for providing a UI component library.
 - ⚛️ [React](https://reactjs.org/) for building the user interface.
 - ⚡ [Vite](https://vitejs.dev/) for fast development and build tool.
-```
+
 
