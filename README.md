@@ -1,6 +1,5 @@
 
 
-```
 # Golds Gym Website 🏋️‍♂️💪
 
 Welcome to the **Golds Gym Website**! This gym website allows you to explore a variety of exercises, view detailed exercise information, get YouTube video suggestions, and discover similar exercises targeting the same muscle groups. 🚴‍♀️💥
@@ -98,5 +97,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🎨 [Material UI](https://mui.com/) for providing a UI component library.
 - ⚛️ [React](https://reactjs.org/) for building the user interface.
 - ⚡ [Vite](https://vitejs.dev/) for fast development and build tool.
-```
+
 
