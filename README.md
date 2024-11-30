@@ -1,101 +1,98 @@
+# Golds Gym Website 🏋️‍♂️💪  
 
+Welcome to the **Golds Gym Website**! This gym website allows you to explore a variety of exercises, view detailed exercise information, get YouTube video suggestions, and discover similar exercises targeting the same muscle groups. 🚴‍♀️💥  
 
-# Golds Gym Website 🏋️‍♂️💪
+**Live Demo**: [Gold's Gym Website](https://golds-gym-by-aps.vercel.app/)  
 
-Welcome to the **Golds Gym Website**! This gym website allows you to explore a variety of exercises, view detailed exercise information, get YouTube video suggestions, and discover similar exercises targeting the same muscle groups. 🚴‍♀️💥
+## 🛠️ Key Features:  
+- **Exercise List** 📋: Browse through a list of exercises.  
+- **Pagination** 🔢: Navigate through pages of exercises with pagination support.  
+- **Exercise Detail Page** 📑: View detailed information about each exercise, including a YouTube video tutorial 🎥.  
+- **Similar Exercises** 🔄: Suggested exercises targeting the same muscle group.  
+- **YouTube Video Integration** 🎬: Fetch and display related YouTube videos for each exercise using the RapidAPI YouTube API.  
 
-## 🛠️ Key Features:
-- **Exercise List** 📋: Browse through a list of exercises.
-- **Pagination** 🔢: Navigate through pages of exercises with pagination support.
-- **Exercise Detail Page** 📑: View detailed information about each exercise, including a YouTube video tutorial 🎥.
-- **Similar Exercises** 🔄: Suggested exercises targeting the same muscle group.
-- **YouTube Video Integration** 🎬: Fetch and display related YouTube videos for each exercise using the RapidAPI YouTube API.
+## 💻 Technologies Used:  
+- **React** ⚛️: A JavaScript library for building user interfaces.  
+- **Material UI** 🎨: A React component library for building user interfaces with a Material Design style.  
+- **Vite** ⚡: A fast build tool and development server.  
+- **Rapid API** 🌐: Provides access to Exercise and YouTube data.  
+- **React Router** 🚗: For routing and navigation between pages.  
 
-## 💻 Technologies Used:
-- **React** ⚛️: A JavaScript library for building user interfaces.
-- **Material UI** 🎨: A React component library for building user interfaces with a Material Design style.
-- **Vite** ⚡: A fast build tool and development server.
-- **Rapid API** 🌐: Provides access to Exercise and YouTube data.
-- **React Router** 🚗: For routing and navigation between pages.
+## 📦 Setup Instructions  
 
+### 1. Clone the Repository  
 
-## 📦 Setup Instructions
+Start by cloning the repository to your local machine:  
 
-### 1. Clone the Repository
+```bash  
+git clone https://github.com/AnujPratap-96/golds-gym-website.git  
+cd golds-gym-website  
+```  
 
-Start by cloning the repository to your local machine:
+### 2. Install Dependencies  
 
-```bash
-git clone https://github.com/AnujPratap-96/golds-gym-website.git
-cd golds-gym-website
-```
+Now, install all the necessary dependencies using npm:  
 
-### 2. Install Dependencies
+```bash  
+npm install  
+```  
 
-Now, install all the necessary dependencies using npm:
+### 3. Set Up API Keys 🔑  
 
-```bash
-npm install
-```
+You’ll need to get API keys for **RapidAPI** and **YouTube**:  
 
-### 3. Set Up API Keys 🔑
+- **RapidAPI Key for Exercise API**:  
+  - Sign up on [RapidAPI](https://rapidapi.com/) and subscribe to the ExerciseDB API.  
+  - Place `YOUR_RAPID_API_KEY` in the `.env` like `VITE_RAPID_API_KEY_EXERCISE`.  
 
-You’ll need to get API keys for **RapidAPI** and **YouTube**:
+- **RapidAPI Key for Youtube Search and Download API**:  
+  - Sign up on [RapidAPI](https://rapidapi.com/) and subscribe to the Youtube Search and Download API.  
+  - Place `YOUR_RAPID_API_KEY` in the `.env` like `VITE_RAPID_API_KEY_YOUTUBE`.  
 
-- **RapidAPI Key for Exercise API**:
-  - Sign up on [RapidAPI](https://rapidapi.com/) and subscribe to the ExerciseDB API.
-  - Place `YOUR_RAPID_API_KEY` in the `.env` like `VITE_RAPID_API_KEY_EXERCISE`.
+### 4. Run the Development Server 🚀  
 
-- **RapidAPI Key for Youtube Search and Download API**:
-  - Sign up on [RapidAPI](https://rapidapi.com/) and subscribe to the Youtube Search and Download API.
-  - Place `YOUR_RAPID_API_KEY` in the `.env` like `VITE_RAPID_API_KEY_YOUTUBE`.
+After installing the dependencies and setting up the API keys, run the development server:  
 
-### 4. Run the Development Server 🚀
+```bash  
+npm run dev  
+```  
 
-After installing the dependencies and setting up the API keys, run the development server:
+This will start the app on `http://localhost:3000`.  
 
-```bash
-npm run dev
-```
+### 5. Build the Project 🏗️  
 
-This will start the app on `http://localhost:3000`.
+To build the project for production, use:  
 
-### 5. Build the Project 🏗️
+```bash  
+npm run build  
+```  
 
-To build the project for production, use:
+This creates an optimized production build in the `dist` folder.  
 
-```bash
-npm run build
-```
+### 6. Preview the Build 🔍  
 
-This creates an optimized production build in the `dist` folder.
+To preview the production build locally:  
 
-### 6. Preview the Build 🔍
+```bash  
+npm run preview  
+```  
 
-To preview the production build locally:
+## 📡 API Endpoints:  
 
-```bash
-npm run preview
-```
+### Exercise API:  
+- `GET /exercises?limit=10&page={page}`: Fetches a paginated list of exercises.  
+- `GET /exercise/{id}`: Fetches detailed information about a specific exercise.  
 
-## 📡 API Endpoints:
+### YouTube API:  
+- `GET /search`: Fetches YouTube video suggestions for a given exercise query.  
 
-### Exercise API:
-- `GET /exercises?limit=10&page={page}`: Fetches a paginated list of exercises.
-- `GET /exercise/{id}`: Fetches detailed information about a specific exercise.
+## 📝 License  
 
-### YouTube API:
-- `GET /search`: Fetches YouTube video suggestions for a given exercise query.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
 
-## 📝 License
+## 🙏 Acknowledgements  
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgements
-
-- 🌍 [RapidAPI](https://rapidapi.com/) for providing access to Exercise and YouTube APIs.
-- 🎨 [Material UI](https://mui.com/) for providing a UI component library.
-- ⚛️ [React](https://reactjs.org/) for building the user interface.
-- ⚡ [Vite](https://vitejs.dev/) for fast development and build tool.
-
-
+- 🌍 [RapidAPI](https://rapidapi.com/) for providing access to Exercise and YouTube APIs.  
+- 🎨 [Material UI](https://mui.com/) for providing a UI component library.  
+- ⚛️ [React](https://reactjs.org/) for building the user interface.  
+- ⚡ [Vite](https://vitejs.dev/) for fast development and build tool.  
